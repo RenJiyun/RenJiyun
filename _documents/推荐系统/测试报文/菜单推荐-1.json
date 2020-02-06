@@ -1,0 +1,51 @@
+{
+  "pageId": "cpi20190219100925",
+  "version": "1",
+  "channel": "MB",
+  "userId": null,
+  "style": "001",
+  "deviceId": "XUVNqdeH1W8DAITkgxYvM/g8",
+  "context": {
+    "userId": null,
+    "deviceId": "XUVNqdeH1W8DAITkgxYvM/g8",
+    "brand": "HONOR",
+    "model": "HWDUK",
+    "resolutionRatioWidth": 1080,
+    "resolutionRatioHeight": 1920,
+    "language": "zh-Hans",
+    "timeZone": "GMT+8",
+    "networkType": "4G",
+    "mobileNetworkMode": "4G",
+    "isp": "中国移动",
+    "os": "9",
+    "osVersion": "9",
+    "timestamp": "1574253877941",
+    "ip": "101.132.66.250",
+    "manufacturer": null,
+    "channel": "MB",
+    "accessTime": "095412909",
+    "appName": "猎豹金融dev",
+    "versionName": "1.0.0.0",
+    "resolution": "1920x1080"
+  },
+  "resourceRequireds": [
+    {
+      "areaId": "cfi20190219106024",
+      "type": "menu",
+      "count": 8,
+      "subject": ["01", "02", "03", "04"],
+      "defaultResources": [
+        "MBPB001001",
+        "MBPB000001",
+        "MBPB001002",
+        "MBPB002004",
+        "MBPB000002",
+        "MBPB001003",
+        "MBPB002003",
+        "MBPB000003"
+      ],
+      "customResources": [null, null, null, null, null, null, null, null],
+      "predefinedResources": [null, null, null, null, null, null, null, null]
+    }
+  ]
+}

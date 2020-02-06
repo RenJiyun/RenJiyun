@@ -1,0 +1,31 @@
+{
+  "channel": "MB",
+  "context": {
+    "accessTime": "185838021",
+    "appName": "恒丰银行",
+    "brand": "iOS",
+    "channel": "MB",
+    "deviceId": "XSwDnZTiQEkDAEEgYuQ91/Nl",
+    "ip": "101.37.80.12",
+    "isp": "中国联通",
+    "language": "zh-Hans",
+    "manufacturer": "Apple",
+    "mobileNetworkMode": "WIFI",
+    "model": "iPhone X",
+    "networkType": "WIFI",
+    "os": "iOS",
+    "osVersion": "13.2.3",
+    "resolution": "2436x1125",
+    "resolutionRatioHeight": 2436,
+    "resolutionRatioWidth": 1125,
+    "timeZone": "GMT+8",
+    "timestamp": "1576061926648",
+    "versionName": "1.0.0.0"
+  },
+  "deviceId": "XSwDnZTiQEkDAEEgYuQ91/Nl",
+  "pageId": "20191203101062",
+  "resourceRequireds": [
+    { "areaId": "cfi20191204106918", "count": 3, "type": "product" }
+  ],
+  "version": "1"
+}

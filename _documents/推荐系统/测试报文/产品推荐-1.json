@@ -1,0 +1,42 @@
+{
+  "pageId": "cpi20190219100925",
+  "version": "1",
+  "channel": "MB",
+  "userId": null,
+  "style": null,
+  "deviceId": "XUVNqdeH1W8DAITkgxYvM/g8",
+  "context": {
+    "userId": null,
+    "deviceId": "XUVNqdeH1W8DAITkgxYvM/g8",
+    "brand": "iOS",
+    "model": "iPhone 11",
+    "resolutionRatioWidth": 828,
+    "resolutionRatioHeight": 1792,
+    "language": "zh-Hans",
+    "timeZone": "GMT+8",
+    "networkType": "WIFI",
+    "mobileNetworkMode": "WIFI",
+    "isp": "中国电信",
+    "os": "iOS",
+    "osVersion": "13.2.3",
+    "timestamp": "1574928009530",
+    "ip": "116.62.4.63",
+    "manufacturer": "Apple",
+    "channel": "MB",
+    "accessTime": "160007857",
+    "appName": "猎豹金融dev",
+    "versionName": "1.0.0.0",
+    "resolution": "1792x828"
+  },
+  "resourceRequireds": [
+    {
+      "areaId": "cfi20190219106028",
+      "type": "product",
+      "count": 3,
+      "subject": null,
+      "defaultResources": null,
+      "predefinedResources": null,
+      "customResources": null
+    }
+  ]
+}

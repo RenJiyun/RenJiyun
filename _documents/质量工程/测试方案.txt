@@ -1,0 +1,92 @@
+1. 目前是否能做单元测试
+2. 接口测试
+3. 接口测试需要集成到CI中
+4. dubbo如何进行契约式测试方案
+---------------------
+spock + spring cloud contract
+
+------------------------
+Spring Cloud Contract
+1. 契约dsl
+2. 契约的mock执行器
+3. 契约的test验证器
+4. 契约 -> WireMock Server
+
+----------------------
+1. 制定dubbo调用的契约dsl
+2. dubbo的mock方案
+
+
+步骤：
+1. 基于groovy dsl或者yaml的契约文件        --只是dsl而已，应该封装一下spring cloud contract中的实现就可以了
+2. 消费者端
+	* 契约文件转换成rpc接口                --   
+	* 消费者的调用可以直指该mock接口       --
+3. 提供者端
+	* 将契约文件转换成测试用例             --应该用泛化调用就可以了
+	* 并且，测试用例可以方便的进行调试
+	
+	
+	
+---------------
+契约文件转换成rpc接口
+1. rpc接口的要素
+2. 消费者端如何拿到该接口？
+	* 该接口生成完之后需要注册到zk，并且消费者端需要通过某种约定只连接到该接口 				--打标记
+	* 该接口生成完之后不需要注册到zk，通过dubbo直连的方式                                   
+	* 该接口生成为injvm接口
+	
+	- 接口发布流程
+	- 接口订阅流程
+
+3. 契约文件的结构：
+	- Contract
+		- priority
+		- request
+		- response
+		- label
+		- description
+		- name
+		- input
+		- outputMessage
+		- ignored
+		- inProgress
+	
+	
+
+
+契约文件转换成测试用例        --按spring cloud contract自带的做法，用maven插件将契约文件直接转换成对应的测试类
+1. junit runner
+2. rpc接口在junit5中本身是如何测试的
+
+
+
+
+
+--------------
+maven plugin
+--------------
+
+
+
+
+
+-----------------------------------------------
+dubbo internal
+-----------------------------------------------
+dubbo-remoting：负责通讯模型
+	* AbstractServer下的所有子类都可以进行调试
+	* url的编码方式
+	
+dubbo-rpc：提供rpc模型
+	* 该模块底下的子模块实现各种协议
+	
+dubbo-meta: 提供rpc元数据信息的管理
+
+dubbo-config：跟dubbo-meta的有些功能有些纠缠
+
+dubbo-config：用于外部接入
+
+	
+	
+	

@@ -1,0 +1,393 @@
+{
+    "flowNo": "202001062204237d97412a-fd2e-4f9f-b76d-41ab0b8fe11e",
+    "resourceMap": {
+        "cfi20191127106791": [
+            {
+                "@Clazz": "com.ynet.api.entity.Menu",
+                "type": "menu",
+                "resourceId": "MBPB001001",
+                "score": 0.0,
+                "subjects": [
+                    "11",
+                    "10"
+                ],
+                "createDate": "2020-01-05",
+                "menuBusinessCode": "MBPB001001",
+                "menuBusinessName": "账户查询",
+                "businessTypeCodes": [
+                    "11",
+                    "10"
+                ],
+                "businessTypeNames": {
+                    "11": "理财",
+                    "10": "贷款"
+                },
+                "menuAttrs": [
+                    {
+                        "positionId": null,
+                        "typeName": "贷款",
+                        "typeCode": "10"
+                    },
+                    {
+                        "positionId": null,
+                        "typeName": "理财",
+                        "typeCode": "11"
+                    }
+                ],
+                "styles": {
+                    "12": {
+                        "topicId": "12",
+                        "menuBusinessCode": "MBPB001001",
+                        "menuName": "账户查询",
+                        "menuUrl": "/ynet_account_query/account_query/index.html",
+                        "menuIcon": "http://flameapp.cn/group1/M01/00/13/wKgAAVv5DquAZOABAAABqULdxx4188.png",
+                        "menuIconx2": "http://111.204.125.243:8085/inmanage-web-uat/fastdfs/group1/M00/00/1A/wKhBq13gzwyAFwTvAAAEovpwOfA586.png",
+                        "menuIconx3": "http://flameapp.cn/group1/M01/00/0C/wKgAAVv2oNiACmCRAAACIah4LDU783.png",
+                        "jumpType": "2",
+                        "login": true,
+                        "platform": "0",
+                        "remindEndTime": null,
+                        "remindBeginTime": null,
+                        "newFlag": false,
+                        "rightFlag": null,
+                        "frame": false,
+                        "frameMessage": null,
+                        "canSearch": false,
+                        "white": false,
+                        "menuDesc": null
+                    },
+                    "13": {
+                        "topicId": "13",
+                        "menuBusinessCode": "MBPB001001",
+                        "menuName": "账户查询",
+                        "menuUrl": "/ynet_account_query/account_query/index.html",
+                        "menuIcon": "http://flameapp.cn/group1/M01/00/13/wKgAAVv5DquAZOABAAABqULdxx4188.png",
+                        "menuIconx2": "http://111.204.125.243:8085/inmanage-web-uat/fastdfs/group1/M00/00/1A/wKhBq13gzwyAFwTvAAAEovpwOfA586.png",
+                        "menuIconx3": "http://flameapp.cn/group1/M01/00/0C/wKgAAVv2oNiACmCRAAACIah4LDU783.png",
+                        "jumpType": "2",
+                        "login": true,
+                        "platform": "0",
+                        "remindEndTime": null,
+                        "remindBeginTime": null,
+                        "newFlag": false,
+                        "rightFlag": null,
+                        "frame": false,
+                        "frameMessage": null,
+                        "canSearch": false,
+                        "white": false,
+                        "menuDesc": null
+                    },
+                    "9": {
+                        "topicId": "9",
+                        "menuBusinessCode": "MBPB001001",
+                        "menuName": "账户查询",
+                        "menuUrl": "/ynet_account_query/account_query/index.html",
+                        "menuIcon": "http://flameapp.cn/group1/M01/00/13/wKgAAVv5DquAZOABAAABqULdxx4188.png",
+                        "menuIconx2": "http://111.204.125.243:8085/inmanage-web-uat/fastdfs/group1/M00/00/1A/wKhBq13gzwyAFwTvAAAEovpwOfA586.png",
+                        "menuIconx3": "http://flameapp.cn/group1/M01/00/0C/wKgAAVv2oNiACmCRAAACIah4LDU783.png",
+                        "jumpType": "2",
+                        "login": true,
+                        "platform": "0",
+                        "remindEndTime": null,
+                        "remindBeginTime": null,
+                        "newFlag": false,
+                        "rightFlag": null,
+                        "frame": false,
+                        "frameMessage": null,
+                        "canSearch": false,
+                        "white": false,
+                        "menuDesc": null
+                    }
+                },
+                "menuStyleList": [
+                    {
+                        "topicId": "9",
+                        "menuBusinessCode": "MBPB001001",
+                        "menuName": "账户查询",
+                        "menuUrl": "/ynet_account_query/account_query/index.html",
+                        "menuIcon": "http://flameapp.cn/group1/M01/00/13/wKgAAVv5DquAZOABAAABqULdxx4188.png",
+                        "menuIconx2": "http://111.204.125.243:8085/inmanage-web-uat/fastdfs/group1/M00/00/1A/wKhBq13gzwyAFwTvAAAEovpwOfA586.png",
+                        "menuIconx3": "http://flameapp.cn/group1/M01/00/0C/wKgAAVv2oNiACmCRAAACIah4LDU783.png",
+                        "jumpType": "2",
+                        "login": true,
+                        "platform": "0",
+                        "remindEndTime": null,
+                        "remindBeginTime": null,
+                        "newFlag": false,
+                        "rightFlag": null,
+                        "frame": false,
+                        "frameMessage": null,
+                        "canSearch": false,
+                        "white": false,
+                        "menuDesc": null
+                    },
+                    {
+                        "topicId": "12",
+                        "menuBusinessCode": "MBPB001001",
+                        "menuName": "账户查询",
+                        "menuUrl": "/ynet_account_query/account_query/index.html",
+                        "menuIcon": "http://flameapp.cn/group1/M01/00/13/wKgAAVv5DquAZOABAAABqULdxx4188.png",
+                        "menuIconx2": "http://111.204.125.243:8085/inmanage-web-uat/fastdfs/group1/M00/00/1A/wKhBq13gzwyAFwTvAAAEovpwOfA586.png",
+                        "menuIconx3": "http://flameapp.cn/group1/M01/00/0C/wKgAAVv2oNiACmCRAAACIah4LDU783.png",
+                        "jumpType": "2",
+                        "login": true,
+                        "platform": "0",
+                        "remindEndTime": null,
+                        "remindBeginTime": null,
+                        "newFlag": false,
+                        "rightFlag": null,
+                        "frame": false,
+                        "frameMessage": null,
+                        "canSearch": false,
+                        "white": false,
+                        "menuDesc": null
+                    },
+                    {
+                        "topicId": "13",
+                        "menuBusinessCode": "MBPB001001",
+                        "menuName": "账户查询",
+                        "menuUrl": "/ynet_account_query/account_query/index.html",
+                        "menuIcon": "http://flameapp.cn/group1/M01/00/13/wKgAAVv5DquAZOABAAABqULdxx4188.png",
+                        "menuIconx2": "http://111.204.125.243:8085/inmanage-web-uat/fastdfs/group1/M00/00/1A/wKhBq13gzwyAFwTvAAAEovpwOfA586.png",
+                        "menuIconx3": "http://flameapp.cn/group1/M01/00/0C/wKgAAVv2oNiACmCRAAACIah4LDU783.png",
+                        "jumpType": "2",
+                        "login": true,
+                        "platform": "0",
+                        "remindEndTime": null,
+                        "remindBeginTime": null,
+                        "newFlag": false,
+                        "rightFlag": null,
+                        "frame": false,
+                        "frameMessage": null,
+                        "canSearch": false,
+                        "white": false,
+                        "menuDesc": null
+                    }
+                ],
+                "style": {
+                    "topicId": "9",
+                    "menuBusinessCode": "MBPB001001",
+                    "menuName": "账户查询",
+                    "menuUrl": "/ynet_account_query/account_query/index.html",
+                    "menuIcon": "http://flameapp.cn/group1/M01/00/13/wKgAAVv5DquAZOABAAABqULdxx4188.png",
+                    "menuIconx2": "http://111.204.125.243:8085/inmanage-web-uat/fastdfs/group1/M00/00/1A/wKhBq13gzwyAFwTvAAAEovpwOfA586.png",
+                    "menuIconx3": "http://flameapp.cn/group1/M01/00/0C/wKgAAVv2oNiACmCRAAACIah4LDU783.png",
+                    "jumpType": "2",
+                    "login": true,
+                    "platform": "0",
+                    "remindEndTime": null,
+                    "remindBeginTime": null,
+                    "newFlag": false,
+                    "rightFlag": null,
+                    "frame": false,
+                    "frameMessage": null,
+                    "canSearch": false,
+                    "white": false,
+                    "menuDesc": null
+                },
+                "id": "MBPB001001"
+            },
+            {
+                "@Clazz": "com.ynet.api.entity.Menu",
+                "type": "menu",
+                "resourceId": "MBPB001002",
+                "score": 0.0,
+                "subjects": [
+                    "15",
+                    "10"
+                ],
+                "createDate": "2020-01-05",
+                "menuBusinessCode": "MBPB001002",
+                "menuBusinessName": "转账汇款",
+                "businessTypeCodes": [
+                    "15",
+                    "10"
+                ],
+                "businessTypeNames": {
+                    "15": "大宗商品2",
+                    "10": "贷款"
+                },
+                "menuAttrs": [
+                    {
+                        "positionId": null,
+                        "typeName": "大宗商品2",
+                        "typeCode": "15"
+                    },
+                    {
+                        "positionId": null,
+                        "typeName": "贷款",
+                        "typeCode": "10"
+                    }
+                ],
+                "styles": {
+                    "12": {
+                        "topicId": "12",
+                        "menuBusinessCode": "MBPB001002",
+                        "menuName": "转账汇款",
+                        "menuUrl": "/ynet_new_transfer/transfer/transferIndex.html",
+                        "menuIcon": "http://flameapp.cn/group1/M01/00/19/wKgAAVv9dd2AdY5xAAAdhcqUbPQ423.png",
+                        "menuIconx2": "http://111.204.125.243:8085/inmanage-web-uat/fastdfs/group1/M00/00/1A/wKhBq13gzw2AZiXTAAAIqFiBI8o551.png",
+                        "menuIconx3": "http://flameapp.cn/group1/M01/00/17/wKgAAVv75dSAdn44AAAELHi9VNo788.png",
+                        "jumpType": "2",
+                        "login": true,
+                        "platform": "0",
+                        "remindEndTime": null,
+                        "remindBeginTime": null,
+                        "newFlag": false,
+                        "rightFlag": null,
+                        "frame": false,
+                        "frameMessage": null,
+                        "canSearch": false,
+                        "white": false,
+                        "menuDesc": null
+                    }
+                },
+                "menuStyleList": [
+                    {
+                        "topicId": "12",
+                        "menuBusinessCode": "MBPB001002",
+                        "menuName": "转账汇款",
+                        "menuUrl": "/ynet_new_transfer/transfer/transferIndex.html",
+                        "menuIcon": "http://flameapp.cn/group1/M01/00/19/wKgAAVv9dd2AdY5xAAAdhcqUbPQ423.png",
+                        "menuIconx2": "http://111.204.125.243:8085/inmanage-web-uat/fastdfs/group1/M00/00/1A/wKhBq13gzw2AZiXTAAAIqFiBI8o551.png",
+                        "menuIconx3": "http://flameapp.cn/group1/M01/00/17/wKgAAVv75dSAdn44AAAELHi9VNo788.png",
+                        "jumpType": "2",
+                        "login": true,
+                        "platform": "0",
+                        "remindEndTime": null,
+                        "remindBeginTime": null,
+                        "newFlag": false,
+                        "rightFlag": null,
+                        "frame": false,
+                        "frameMessage": null,
+                        "canSearch": false,
+                        "white": false,
+                        "menuDesc": null
+                    }
+                ],
+                "style": {
+                    "topicId": "12",
+                    "menuBusinessCode": "MBPB001002",
+                    "menuName": "转账汇款",
+                    "menuUrl": "/ynet_new_transfer/transfer/transferIndex.html",
+                    "menuIcon": "http://flameapp.cn/group1/M01/00/19/wKgAAVv9dd2AdY5xAAAdhcqUbPQ423.png",
+                    "menuIconx2": "http://111.204.125.243:8085/inmanage-web-uat/fastdfs/group1/M00/00/1A/wKhBq13gzw2AZiXTAAAIqFiBI8o551.png",
+                    "menuIconx3": "http://flameapp.cn/group1/M01/00/17/wKgAAVv75dSAdn44AAAELHi9VNo788.png",
+                    "jumpType": "2",
+                    "login": true,
+                    "platform": "0",
+                    "remindEndTime": null,
+                    "remindBeginTime": null,
+                    "newFlag": false,
+                    "rightFlag": null,
+                    "frame": false,
+                    "frameMessage": null,
+                    "canSearch": false,
+                    "white": false,
+                    "menuDesc": null
+                },
+                "id": "MBPB001002"
+            },
+            {
+                "@Clazz": "com.ynet.api.entity.Menu",
+                "type": "menu",
+                "resourceId": "MBPB001003",
+                "score": 0.0,
+                "subjects": [
+                    "15"
+                ],
+                "createDate": "2019-12-31",
+                "menuBusinessCode": "MBPB001003",
+                "menuBusinessName": "他行卡转入",
+                "businessTypeCodes": [
+                    "15"
+                ],
+                "businessTypeNames": {
+                    "15": "大宗商品2"
+                },
+                "menuAttrs": [
+                    {
+                        "positionId": null,
+                        "typeName": "大宗商品2",
+                        "typeCode": "15"
+                    }
+                ],
+                "styles": {
+                    "13": {
+                        "topicId": "13",
+                        "menuBusinessCode": "MBPB001003",
+                        "menuName": "他行卡转入",
+                        "menuUrl": "/ynet_otherbankcards_into/index/index.html",
+                        "menuIcon": "http://flameapp.cn/group1/M01/00/13/wKgAAVv5Hx2AUcjPAAAEA-HPUBw279.png",
+                        "menuIconx2": "http://111.204.125.243:8085/inmanage-web-uat/fastdfs/group1/M00/00/1A/wKhBq13gzwyAHxJ-AAAEqwwenyc909.png",
+                        "menuIconx3": "http://flameapp.cn/group1/M01/00/1A/wKgAAVv9e1OAcL3OAAACTLkACEA063.png",
+                        "jumpType": "2",
+                        "login": true,
+                        "platform": "0",
+                        "remindEndTime": null,
+                        "remindBeginTime": null,
+                        "newFlag": false,
+                        "rightFlag": null,
+                        "frame": false,
+                        "frameMessage": null,
+                        "canSearch": false,
+                        "white": false,
+                        "menuDesc": null
+                    }
+                },
+                "menuStyleList": [
+                    {
+                        "topicId": "13",
+                        "menuBusinessCode": "MBPB001003",
+                        "menuName": "他行卡转入",
+                        "menuUrl": "/ynet_otherbankcards_into/index/index.html",
+                        "menuIcon": "http://flameapp.cn/group1/M01/00/13/wKgAAVv5Hx2AUcjPAAAEA-HPUBw279.png",
+                        "menuIconx2": "http://111.204.125.243:8085/inmanage-web-uat/fastdfs/group1/M00/00/1A/wKhBq13gzwyAHxJ-AAAEqwwenyc909.png",
+                        "menuIconx3": "http://flameapp.cn/group1/M01/00/1A/wKgAAVv9e1OAcL3OAAACTLkACEA063.png",
+                        "jumpType": "2",
+                        "login": true,
+                        "platform": "0",
+                        "remindEndTime": null,
+                        "remindBeginTime": null,
+                        "newFlag": false,
+                        "rightFlag": null,
+                        "frame": false,
+                        "frameMessage": null,
+                        "canSearch": false,
+                        "white": false,
+                        "menuDesc": null
+                    }
+                ],
+                "style": {
+                    "topicId": "13",
+                    "menuBusinessCode": "MBPB001003",
+                    "menuName": "他行卡转入",
+                    "menuUrl": "/ynet_otherbankcards_into/index/index.html",
+                    "menuIcon": "http://flameapp.cn/group1/M01/00/13/wKgAAVv5Hx2AUcjPAAAEA-HPUBw279.png",
+                    "menuIconx2": "http://111.204.125.243:8085/inmanage-web-uat/fastdfs/group1/M00/00/1A/wKhBq13gzwyAHxJ-AAAEqwwenyc909.png",
+                    "menuIconx3": "http://flameapp.cn/group1/M01/00/1A/wKgAAVv9e1OAcL3OAAACTLkACEA063.png",
+                    "jumpType": "2",
+                    "login": true,
+                    "platform": "0",
+                    "remindEndTime": null,
+                    "remindBeginTime": null,
+                    "newFlag": false,
+                    "rightFlag": null,
+                    "frame": false,
+                    "frameMessage": null,
+                    "canSearch": false,
+                    "white": false,
+                    "menuDesc": null
+                },
+                "id": "MBPB001003"
+            },
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    }
+}
