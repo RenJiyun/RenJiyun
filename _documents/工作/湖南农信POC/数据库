@@ -1,0 +1,52 @@
+create database ifbc_base default character set utf8mb4;
+create user ifbc_base identified by '1q2w3e4r';
+grant all on ifbc_base.* to 'ifbc_base'@'%';
+flush privileges;
+
+
+create database ifbc_batch default character set utf8mb4;
+create user ifbc_batch identified by '1q2w3e4r';
+grant all on ifbc_batch.* to 'ifbc_batch'@'%';
+flush privileges;
+
+
+create database ifbc_business default character set utf8mb4;
+create user ifbc_business identified by '1q2w3e4r';
+grant all on ifbc_business.* to 'ifbc_business'@'%';
+flush privileges;
+
+
+create database ifbc_market default character set utf8mb4;
+create user ifbc_market identified by '1q2w3e4r';
+grant all on ifbc_market.* to 'ifbc_market'@'%';
+flush privileges;
+
+
+create database financial_calendar default character set utf8mb4;
+create user financial_calendar identified by '1q2w3e4r';
+grant all on financial_calendar.* to 'financial_calendar'@'%';
+flush privileges;
+
+
+create database ifbc_msg default character set utf8mb4;
+create user ifbc_msg identified by '1q2w3e4r';
+grant all on ifbc_msg.* to 'ifbc_msg'@'%';
+flush privileges;
+
+
+create database ifbc_product default character set utf8mb4;
+create user ifbc_product identified by '1q2w3e4r';
+grant all on ifbc_product.* to 'ifbc_product'@'%';
+flush privileges;
+
+
+create database ifbc_security default character set utf8mb4;
+create user ifbc_security identified by '1q2w3e4r';
+grant all on ifbc_security.* to 'ifbc_security'@'%';
+flush privileges;
+
+
+create database ifbc_user default character set utf8mb4;
+create user ifbc_user identified by '1q2w3e4r';
+grant all on ifbc_user.* to 'ifbc_user'@'%';
+flush privileges;
