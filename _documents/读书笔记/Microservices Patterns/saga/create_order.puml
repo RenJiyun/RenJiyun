@@ -1,0 +1,18 @@
+@startuml
+
+[Order Service]
+
+[Consumer Service]
+
+[Kitchen Service]
+
+[Accounting Service]
+
+HTTP - [Order Service] : Order Controller
+
+[Order Service] ..> [Consumer Service] : Reads
+[Order Service] ..> [Kitchen Service] : Writes
+[Order Service] ..> [Accounting Service] : Writes 
+
+
+@enduml

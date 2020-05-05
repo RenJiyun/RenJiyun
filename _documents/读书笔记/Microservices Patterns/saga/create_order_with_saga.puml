@@ -1,0 +1,59 @@
+@startuml
+
+folder "应用层" {
+
+    folder "领域层" {
+
+        [OrderService]
+
+        [OrderRepository]
+
+
+        [Order]
+
+        [CreateOrderSaga]
+
+        [OrderServiceProxy]
+
+        [KitchenServiceProxy]
+
+
+        OrderService --> OrderRepository
+        OrderService --> Order
+        OrderService --> CreateOrderSaga
+
+        CreateOrderSaga --> OrderServiceProxy : use
+        CreateOrderSaga --> KitchenServiceProxy : use
+
+        note left of OrderServiceProxy
+            消息API
+        end note
+    }
+
+    [Order Service Controller]
+    [Order Command Handlers]
+    [Reply Consumer]
+    [Command Message Publisher]
+
+
+    [Order Service Controller] -> [OrderService]
+    [Order Command Handlers] --> [OrderService]
+    [Reply Consumer] --> CreateOrderSaga
+    OrderServiceProxy --> [Command Message Publisher]
+    KitchenServiceProxy --> [Command Message Publisher]
+
+}
+
+HTTP --> [Order Service Controller] : createOrder()\ncancelOrder()
+
+[OrderServiceRequestsMQ] --> [Order Command Handlers]
+[CreateOrderSagaRepliesMQ] --> [Reply Consumer]
+
+[Command Message Publisher] --> [AccountingServiceRequestsMQ]
+[Command Message Publisher] --> [ComsumerServiceRequestsMQ]
+[Command Message Publisher] --> [KitchenServiceRequestsMQ]
+
+
+
+@enduml
+
